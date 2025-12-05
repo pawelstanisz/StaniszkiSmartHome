@@ -1,0 +1,27 @@
+<UserControl x:Class="StaniszkiSmartHome.Views.StartView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Pierwszy rząd -->
+        <Button Grid.Row="0" Grid.Column="0" Content="Alarm" Click="Alarm_Click" Margin="10" FontSize="50"/>
+        <Button Grid.Row="0" Grid.Column="1" Content="Domofon" Click="Domofon_Click" Margin="10" FontSize="50"/>
+        <Button Grid.Row="0" Grid.Column="2" Content="Kamery" Click="Kamery_Click" Margin="10" FontSize="50"/>
+
+        <!-- Drugi rząd -->
+        <Button Grid.Row="1" Grid.Column="0" Content="Oświetlenie" Click="Oswietlenie_Click" Margin="10" FontSize="50"/>
+        <Button Grid.Row="1" Grid.Column="1" Content="Rolety" Click="Rolety_Click" Margin="10" FontSize="50"/>
+        <Button Grid.Row="1" Grid.Column="2" Content="Temperatura" Click="Temperatura_Click" Margin="10" FontSize="50"/>
+    </Grid>
+</UserControl>
+
+
