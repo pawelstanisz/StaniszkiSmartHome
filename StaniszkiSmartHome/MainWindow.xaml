@@ -21,7 +21,7 @@
 
         <!-- GÓRNA BELKA / Row number 0 -->
         <Grid Grid.Row="0" Background="#FF1F1F1F">
-            <TextBlock Text="STANISZKI SmartHome" Foreground="White" VerticalAlignment="Center" FontSize="30" Padding="20,0,0,0"/>
+            <TextBlock Text="STANISZKI SmartHome" Foreground="White" VerticalAlignment="Center" FontSize="30" Padding="20,0,0,0" MouseLeftButtonDown="TextLogo_MouseLeftButtonDown"/>
             <TextBlock x:Name="TopDateTimeTextBlock" Grid.Column="1" Text="0000-00-00 00:00:00" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="20" Margin="0,0,16,0"/>
         </Grid>
 
@@ -34,7 +34,7 @@
 
         <!-- STOPKA / Row number 2 -->
         <Grid Grid.Row="2" Background="#FF1F1F1F">
-            <TextBlock Text="Copyright 2025 @ Paweł Stanisz | ver. v0.0.2" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" />
+            <TextBlock Text="Copyright 2025 @ Paweł Stanisz | ver. v0.0.3" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" />
         </Grid>
 
     </Grid>
